@@ -17,7 +17,7 @@ button{
     background-color: #5f9341;
     margin-top: 4px;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #5f9341;
     font-weight: bold;
 }
 
@@ -34,4 +34,13 @@ li{
 
 li a{
     color: #5f9341;
+}
+
+#delete-btn{
+    color: #5f9341;
+    background-color: white;
+    margin-top: 4px;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
 }
