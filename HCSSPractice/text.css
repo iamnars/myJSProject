@@ -1,0 +1,55 @@
+.price-hd{
+    color: rgb(19, 196, 19);
+}
+
+.msg-hd{
+    font-weight: lighter;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.video-views{
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.video-creator{
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px; 
+    margin-bottom: 0;
+}
+
+.video-desc{
+    font-size: 14px;
+    color: grey;
+    margin-top: 20px; 
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text{
+    margin-bottom: 50px;
+    background-color: rgb(245, 74, 74);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.link-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
