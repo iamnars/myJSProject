@@ -1,0 +1,44 @@
+.thumbnail{
+    width: 100%;
+   
+}
+.top-container{
+    display: block;
+}
+
+.preview-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* vertical-align: top; */
+    width: 300px;
+    row-gap: 5px;
+    /* background-color: red; */
+}
+
+.circle-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 50%;
+     
+}
+
+
+.thumbnail-container{
+    width: 300px;
+}
+
+.preview-details{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    /* background-color: grey; */
+    width: 100%;
+    column-gap: 10px;
+}
+
+.preview-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
