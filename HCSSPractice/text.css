@@ -7,7 +7,7 @@
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
 }
 .video-title{
     font-size: 18px;
@@ -52,4 +52,15 @@ p{
 .link-text:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.model3-text{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.order-text{
+    font-family: Montserrat;
+    font-size: 20px;
 }
