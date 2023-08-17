@@ -7,19 +7,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/text.css">
     
     <title>Youtube.com Clone</title>
 </head>
-<body style="padding-bottom: 1000px;">
+<body style="padding-bottom: 300px;">
+    
     <div class="top-container">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button>Search</button>
+        <div class="left-section">
+            <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><img class="search-icon" src="images/icons/search.svg"></button>
+            <div class="search-tooltip">Search</div>
+            <button class="voice-search-button"><img class="voice-search-icon" src="images/icons/voice-search-icon.svg"></button>
+            <div class = sv-tooltip>Search with your voice</div>
+        </div>
+        <div class="right-section">
+            <img class="right-section-icons" src="images/icons/upload.svg">
+            <img class="right-section-icons" src="images/icons/youtube-apps.svg">
+            <img class="right-section-icons" src="images/icons/notifications.svg">
+            <span class="notif">3</span>
+            <img class="mychannel-icon" src="images/icons/my-channel.jpeg">
+        </div>
     </div>
+
+    <div class="sidebar-menu">
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/home.svg"><div>Home</div></button></div>
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/explore.svg"><div>Explore</div></button></div>
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/subscriptions.svg"><div>Subscriptions</div></button></div>
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/originals.svg"><div>Originals</div></button></div>
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/youtube-music.svg"><div>Youtube Music</div></button></div>
+        <div class="sidelink-bar"><button class="sidebar-buttons"><img class="sidebar-icons" src="images/icons/library.svg"><div>Library</div></button></div>
+    </div>
+
   <div class ="preview-container-grid"> 
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-1.webp">
+            <span class="video-time">14:20</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -35,6 +64,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-2.webp">
+            <span class="video-time">8:22</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -51,6 +81,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-3.webp">
+            <span class="video-time">9:13</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -67,6 +98,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-4.webp">
+            <span class="video-time">22:09</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -83,6 +115,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-5.webp">
+            <span class="video-time">11:17</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -99,6 +132,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-6.webp">
+            <span class="video-time">19:59</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -115,6 +149,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-7.webp">
+            <span class="video-time">10:13</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -132,6 +167,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-8.webp">
+            <span class="video-time">7:12</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -149,6 +185,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-9.webp">
+            <span class="video-time">13:17</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -166,6 +203,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-10.webp">
+            <span class="video-time">7:53</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -183,6 +221,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-11.webp">
+            <span class="video-time">4:10</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">
@@ -200,6 +239,7 @@
     <div class="preview-container">
         <div class="thumbnail-container">
             <img class="thumbnail" src="images/thumbnails/thumbnail-12.webp">
+            <span class="video-time">4:51</span>
         </div>
         <div class="preview-details">
             <div class="channel-pic">

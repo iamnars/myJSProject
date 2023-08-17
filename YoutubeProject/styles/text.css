@@ -7,38 +7,36 @@
 }
 
 p{
-    font-family: Roboto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 .video-title{
     font-size: 14px;
     font-weight: bold;
     margin-top: 0px;
     line-height: 20px;
-    margin-bottom: 0;
 }
 
 .video-views{
-    font-size: 14px;
+    font-size: 12px;
     color: grey;
     margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.video-creator{
-    font-size: 14px;
-    color: grey;
-    margin-top: 5px; 
     margin-bottom: 0;
 }
 
-.video-desc{
+.video-creator{
+    font-size: 12px;
+    color: grey;
+    margin-top: 3px; 
+    margin-bottom: 0;
+}
+
+/* .video-desc{
     font-size: 14px;
     color: grey;
     margin-top: 20px; 
     width: 280px;
     line-height: 22px;
-    margin-bottom: 100px;
-}
+} */
 
 .apple-text{
     margin-bottom: 50px;
