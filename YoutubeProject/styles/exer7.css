@@ -1,0 +1,124 @@
+.rounded-image{
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.circle-image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 50%;
+    margin-left: 20px;   
+}
+.square-image{
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    object-position: left;
+    align-content: center;
+    scale: 80%;
+    margin-left: 20px;
+}
+
+input{
+    padding-left: 10px;
+    margin-left: 20px;
+    height: 28px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+
+.gsearch-bar{
+    
+    width: 300px;
+    border-radius: 20px;
+    border: 1px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.20);
+
+}
+
+.email-input{
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+.email-text{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 12.5px;
+    margin-bottom: 0px;
+}
+
+.linked-button{
+    background-color: rgb(15, 58, 173);
+    color: white;
+    border: solid 1px;
+    border-color: rgb(15, 58, 173);
+    padding: 12px 20px 12px 20px; /*T R B L*/
+    border-radius: 10px;
+    margin-right: 8px;
+    margin-left: 1px;
+    font-weight: bold; 
+    width: 230px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: background-color 0.15s, color 0.15s, border-width 0.15s;
+}
+.linked-button:hover{
+    background-color: white;
+    color: rgb(15, 58, 173);
+}
+.linked-button:active{
+    border-width: 2px;
+}
+
+.tweet-button{
+    background-color: #1DA1F2;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 9px 15px 9px 15px; /*T R B L*/
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.15s; 
+    
+}
+.tweet-button:hover{
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active{
+    opacity: 0.7;
+}
+
+.tweet-input{
+    border: none;
+    align-self: center;
+    margin-left: 0px;
+    width: 200px;
+}
+
+.uber-button{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px; /*T R B L*/
+    border-radius: 2px;
+    margin-right: 8px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.uber-button:hover{
+    opacity: 0.8;
+}
+.uber-button:active{
+    opacity: 0.5;
+}
